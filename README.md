@@ -1,5 +1,5 @@
 # COMP321
-Java and Python source code for COMP 321: Programming Challenges Assignments (Fall 2019)
+Java and Python source code for COMP 321: Programming Challenges Assignments (McGill University, Fall 2019)
 
 Assignments were taken from Kattis questions, with descriptions as follows:
 
