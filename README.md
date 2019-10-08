@@ -11,3 +11,8 @@ The Easiest Problem Is This One: https://open.kattis.com/problems/easiest
 I Can Guess the Data Structure: https://open.kattis.com/problems/guessthedatastructure
 
 ### Assignment 2
+Coloring Socks: https://open.kattis.com/problems/color
+
+Flexible Spaces: https://open.kattis.com/problems/flexible
+
+Radio Commercials: https://open.kattis.com/problems/commercials
