@@ -12,18 +12,35 @@ public class FlexibleSpaces_260762268 {
      */
     public static void main(String[]args){
         //first, read in the inputs
-        Scanner sc = new Scanner();
+        Scanner sc = new Scanner(System.in);
         int w = sc.nextInt();
         int p = sc.nextInt();
-        int[] locations = new int[p];
-        for(int i = 0; i<locations.length; i++){
+        int[] locations = new int[p+2];
+        locations[0] = 0;
+        locations[locations.length - 1] = w;
+        for(int i = 1; i<locations.length-1; i++){
             locations[i] = sc.nextInt();
         }
         sc.close();
-        //next, determine possible widths and add them to an ArrayList
-        for(int i = 0; i<=p; i++){//for each number of partitions
 
+        //next, use a boolean array of widths to track whether they're feasible
+        boolean[] feas = new boolean[w+1];
+        for(int i = 0; i<feas.length; i++)
+            feas[i] = false;
+        feas[w] = true;
+
+        //update array values
+        for(int i = 0; i<locations.length; i++){
+            for(int j = 1; j<locations.length; j++){
+                int curWidth = Math.abs(locations[j] - locations[i]);
+                if(!feas[curWidth])
+                    feas[curWidth]=true;
+            }
         }
-        //finally, sort the list, and print each element
+
+        //finally, iterate over the boolean array to print each feasible width
+        for(int i = 1; i<feas.length; i++)
+            if(feas[i])
+                System.out.print(i + " ");
     }
 }
