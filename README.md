@@ -16,3 +16,8 @@ Coloring Socks: https://open.kattis.com/problems/color
 Flexible Spaces: https://open.kattis.com/problems/flexible
 
 Radio Commercials: https://open.kattis.com/problems/commercials
+
+### Assignmenet 3
+Virus Replication: https://open.kattis.com/problems/virus
+
+Restaurant Orders: https://open.kattis.com/problems/orders
