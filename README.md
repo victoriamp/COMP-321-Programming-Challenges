@@ -21,3 +21,10 @@ Radio Commercials: https://open.kattis.com/problems/commercials
 Virus Replication: https://open.kattis.com/problems/virus
 
 Restaurant Orders: https://open.kattis.com/problems/orders
+
+### Assignment 4
+Frosh Week: https://open.kattis.com/problems/froshweek2
+
+Money Matters: https://open.kattis.com/problems/moneymatters
+
+Natrij: https://open.kattis.com/problems/natrij
